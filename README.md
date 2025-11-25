@@ -54,19 +54,22 @@ ALLOWED_FILE_TYPES=image/jpeg,image/png,image/gif,image/webp
 📡 API Endpoints
 
 Autentikasi
-POST /api/auth/register - Registrasi pengguna baru
-POST /api/auth/login - Login pengguna
-GET /api/auth/verify-email - Verifikasi email
-GET /api/auth/profile - Get profil pengguna (protected)
+
+- POST /api/auth/register - Registrasi pengguna baru
+ POST /api/auth/login - Login pengguna
+- GET /api/auth/verify-email - Verifikasi email
+- GET /api/auth/profile - Get profil pengguna (protected)
 
 Kursus
-GET /api/courses - Get semua kursus (dengan filter)
-GET /api/courses/categories - Get semua kategori
-GET /api/courses/:id - Get kursus by ID
-POST /api/courses - Buat kursus baru (protected)
-PUT /api/courses/:id - Update kursus (protected)
-DELETE /api/courses/:id - Hapus kursus (protected)
+
+- GET /api/courses - Get semua kursus (dengan filter)
+- GET /api/courses/categories - Get semua kategori
+- GET /api/courses/:id - Get kursus by ID
+- POST /api/courses - Buat kursus baru (protected)
+- PUT /api/courses/:id - Update kursus (protected)
+- DELETE /api/courses/:id - Hapus kursus (protected)
 
 Upload
-POST /api/upload - Upload file umum (protected)
+
+- POST /api/upload - Upload file umum (protected)
 POST /api/upload/profile - Upload gambar profil (protected)
